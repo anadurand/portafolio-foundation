@@ -16,9 +16,25 @@
 
 footer .menu li a {
   padding: 0.7rem .7rem;
-  font-size: .9rem;
+  font-size: .95rem;
 }
 
 footer .menu li a:hover {
   color: #ADADAD;
+}
+
+.flex-container {
+  display: flex;
+}
+
+footer .menu {
+  flex-wrap: wrap;
+}
+
+/*Mobile*/
+@media (max-width: 768px) {
+  footer .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
