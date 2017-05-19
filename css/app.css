@@ -14,9 +14,13 @@
   font-weight: 300;
 }
 
+footer nav {
+  padding: 7px 0;
+}
+
 footer .menu li a {
-  padding: 0.7rem .7rem;
-  font-size: .95rem;
+  padding: 1.2rem .7rem;
+  font-size: .92rem;
 }
 
 footer .menu li a:hover {
@@ -31,10 +35,15 @@ footer .menu {
   flex-wrap: wrap;
 }
 
+.border-tp-lg-gray {
+  border-top: 1px solid #e5e5e5;
+}
+
 /*Mobile*/
 @media (max-width: 768px) {
   footer .menu {
     flex-wrap: wrap;
     justify-content: center;
   }
+
 }
