@@ -14,6 +14,10 @@
   font-weight: 300;
 }
 
+.font-600 {
+  font-weight: 600;
+}
+
 footer nav {
   padding: 7px 0;
 }
@@ -37,6 +41,10 @@ footer .menu {
 
 .border-tp-lg-gray {
   border-top: 1px solid #e5e5e5;
+}
+
+.footer li {
+  font-size: .92rem;
 }
 
 /*Mobile*/
