@@ -43,8 +43,15 @@ footer .menu {
   border-top: 1px solid #e5e5e5;
 }
 
-.footer li {
+.footer {
+  height: 237px;
+}
+
+.footer .categories li {
   font-size: .92rem;
+  display: inline-block;
+  width: 25%;
+  margin-left: -4px;
 }
 
 /*Mobile*/
