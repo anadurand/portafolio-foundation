@@ -162,6 +162,17 @@ footer .menu {
   margin-bottom: 20px;
 }
 
+.award {
+  background-image: url("../assets/img/Yellow_Winner.png");
+  display: block;
+  height: 128px;
+  width: 128px;
+  background-repeat: round;
+  position: fixed;
+  bottom: 25px;
+  right: 30px;
+}
+
 /*Mobile*/
 @media (max-width: 768px) {
   footer .menu {
