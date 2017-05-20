@@ -201,6 +201,7 @@ footer .menu {
   .departments,
   .categories {
     padding: 0 35px;
+    border-left: none !important; 
   }
 
   .footer-links {
