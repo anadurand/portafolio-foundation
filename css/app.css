@@ -6,10 +6,6 @@
   text-decoration: none;
 }
 
-.black-text {
-  color: #000;
-}
-
 .font-300 {
   font-weight: 300;
 }
@@ -31,7 +27,11 @@ footer nav ul li:first-child {
   margin-left: -.7rem;
 }
 
-footer .menu li a:hover {
+.top-nav-footer .menu  a, .footer a {
+  color: #000;
+}
+
+.top-nav-footer .menu li a:hover, .footer a:hover {
   color: #ADADAD;
 }
 
