@@ -1,8 +1,19 @@
-
-.column{
+/*
+.columns{
   padding-right: 0;
   padding-left: 0;
 }
+*/
 div {
-  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+@media screen and (max-width: 340px) {
+    div {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+}
+img {
+  height: 568px;
 }
