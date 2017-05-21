@@ -194,6 +194,18 @@ footer .menu {
     visibility: hidden;
 }
 
+.off-canvas.is-open {
+    width: 373px;
+}
+
+.js-off-canvas-overlay {
+  background-color: #000;
+}
+
+.js-off-canvas-overlay.is-visible {
+    opacity: .3;
+}
+
 /*Mobile*/
 @media (max-width: 768px) {
   footer .menu {
