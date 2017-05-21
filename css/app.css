@@ -1,3 +1,22 @@
+
+
+.row{
+  display: flex;
+}
+
+/*
+@media (max-width 640px) {
+
+}
+
+.small (max-width 640px)
+.medium (min-width 641px and max-width 1024px)
+.large  (min-width 1025px and max-width 1440px)
+.xlarge (min-width 1441px and max-width 1920px)
+.xxlarge (min-width 1921px)
+*/
+
+
 /*
 .column {
 
