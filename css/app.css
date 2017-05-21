@@ -11,6 +11,12 @@ body {
 	color:white;
 }
 
+.color-black {
+	color:black;
+}
+
+.color-gray {  color: #9b9b9b !important;
+}
 
 .prombar {
 	background-color: black;
@@ -19,17 +25,157 @@ body {
 	border:1px solid black;
 }
 
-div.column{
-	border: 1px solid black;
-}
-
 img.us {
 	width:20px;
 	height: 20px; 
 }
 
-i.fa{
+/* SEGUNDA PARTE */
 
-	display: inline-block;
-	font-size: 20px;
+	
+.headerTopBar {
+	border: 1px solid;	
 }
+
+.row .columns {
+	padding-top: 1rem;
+	padding-left: 0;	
+	height: 60px;	
+}
+
+div.logo {
+	width: 10%;	
+}
+
+div.search{
+	position: relative;	
+	top:5px;
+}
+
+i.fa-search,  
+i.fa-smile-o {
+	display: inline-block;
+	font-size: 23px;
+	position: relative;
+	top:6px;
+	left:5px
+}
+
+
+
+
+
+i.fa-credit-card {
+	font-size: 13px;	
+	position: relative;
+	left:5px;
+	top:-3px;
+}
+
+
+
+
+.search-icon, 
+.search-emoticon {
+	border: 1px solid black;
+	display: inline-block;
+	width: 35px;
+	height: 39px;
+	position: relative;	
+	top:-3px;
+	font-size: 1.2em;
+	font-weight: bold;		
+}
+
+
+.search-emoticon {
+	right:10px;
+}
+
+
+
+.search-input {
+	display: inline-block;	
+	width: 80%;	
+	position: relative;	
+	left:-5px;
+	border: 1px solid black;
+	border-left: none;	
+
+}
+
+
+
+
+header.show-for-large .row  ul.menu.align-right {
+	padding-right: 0;
+	position: relative;	
+	top:7px;	
+	font-size: .9em;	
+}
+
+
+
+
+
+header.show-for-large .row  ul.menu.align-right li:before{
+content: "|";
+position: absolute;
+font-size: 20px;
+bottom:15px;
+opacity:0.4; 
+
+}
+
+ ul.menu.align-right li:nth-child(4):before,
+ ul.menu.align-right li:nth-child(5):before{
+	content: "";
+	color:#fff;
+}
+
+
+header.show-for-large .row  ul.menu.align-right li.new {
+	position: absolute;
+	top:-4px;
+	left:40%;
+}
+
+span.new{
+	background-color: #00a256;
+	font-size: .9em;
+	padding: .5px 3px;
+	border-radius: 5px;
+
+}
+
+div.navbar.row ul{
+
+	font-size: 0.70em; 
+}
+
+
+span.nav {
+	font-size: 16.5px;
+	padding-right: 11.5px;
+	
+}
+
+
+
+
+
+
+
+@media (max-width: 1190px)  {
+
+li.hide-small {
+	display: none;	
+	}
+
+span.new {
+	display:none; 
+}
+
+
+}
+
