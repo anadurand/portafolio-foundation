@@ -1,1 +1,22 @@
 $(document).foundation()
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    navText:[`<span class="icon-chevron-thin-left orbit-previous icon-style hide-for-small-only" style="opacity: 1;"></span>`,`<span class="icon-chevron-thin-right orbit-next icon-style hide-for-small-only" style="opacity: 1;"></span>`],
+    items:5,
+    loop:true,
+    margin:13,
+    nav:true,
+    merge:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+});

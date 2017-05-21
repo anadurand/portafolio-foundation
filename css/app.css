@@ -1,0 +1,30 @@
+*{
+  font-family: 'Nunito', sans-serif;
+}
+#carrusel{
+    margin: 30px auto;
+}
+     #carrusel .item{
+         background: none;
+         height: 300px;
+     }
+     #carrusel .item img{
+         min-width: 200px;
+         height: auto;
+     }
+
+.orbit-previous:hover{
+  background-color: transparent;
+  opacity: 1;
+}
+.orbit-next:hover{
+  background-color:transparent;
+  opacity: 1;
+}
+#owl-demo .item{
+}
+p {
+  display: inline-block;
+  position: relative;
+  left: 50px;
+}
