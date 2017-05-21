@@ -199,11 +199,25 @@ footer .menu {
 }
 
 .js-off-canvas-overlay {
-  background-color: #000;
+    background-color: #000;
 }
 
 .js-off-canvas-overlay.is-visible {
     opacity: .3;
+}
+
+.position-right.is-transition-push::after {
+    box-shadow: none;
+}
+
+.off-canvas h5 {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background-color: #343535;
+  padding: 10px 20px;
+  font-family: inherit;
 }
 
 /*Mobile*/
