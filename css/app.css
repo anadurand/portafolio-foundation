@@ -173,6 +173,28 @@ footer .menu {
   right: 30px;
 }
 
+.visible {
+    cursor: pointer;
+    opacity: .25 !important;
+    visibility: visible !important;
+}
+
+.black-all {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: #000;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    visibility: hidden;
+    z-index: 105;
+}
+
 /*Mobile*/
 @media (max-width: 768px) {
   footer .menu {
@@ -201,7 +223,7 @@ footer .menu {
   .departments,
   .categories {
     padding: 0 35px;
-    border-left: none !important; 
+    border-left: none !important;
   }
 
   .footer-links {
