@@ -192,7 +192,6 @@ footer .menu {
     -o-transition: all .3s ease;
     transition: all .3s ease;
     visibility: hidden;
-    z-index: 105;
 }
 
 /*Mobile*/
