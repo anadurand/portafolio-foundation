@@ -220,6 +220,15 @@ footer .menu {
   font-family: inherit;
 }
 
+.close-button {
+  padding: 0 10px;
+  left: 0;
+}
+
+.icon-keyboard_arrow_right {
+  color: #fff;
+}
+
 /*Mobile*/
 @media (max-width: 768px) {
   footer .menu {

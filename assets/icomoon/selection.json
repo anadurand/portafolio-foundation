@@ -4,6 +4,35 @@
     {
       "icon": {
         "paths": [
+          "M366 698l196-196-196-196 60-60 256 256-256 256z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "keyboard_arrow_right"
+        ],
+        "grid": 24
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 0,
+        "prevSize": 24,
+        "code": 59648,
+        "name": "keyboard_arrow_right"
+      },
+      "setIdx": 0,
+      "setId": 6,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
           "M608 192h160v-192h-160c-123.514 0-224 100.486-224 224v96h-128v192h128v512h192v-512h160l32-192h-192v-96c0-17.346 14.654-32 32-32z"
         ],
         "attrs": [],
@@ -26,7 +55,7 @@
         "prevSize": 32,
         "code": 60048
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 4,
       "iconIdx": 400
     },
@@ -57,7 +86,7 @@
         "prevSize": 32,
         "code": 60050
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 4,
       "iconIdx": 402
     },
@@ -87,7 +116,7 @@
         "prevSize": 32,
         "code": 60054
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 4,
       "iconIdx": 406
     },
@@ -116,7 +145,7 @@
         "prevSize": 32,
         "code": 60113
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 4,
       "iconIdx": 465
     }
