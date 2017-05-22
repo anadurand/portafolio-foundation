@@ -211,6 +211,27 @@ footer .menu {
   position: fixed;
 }
 
+.hamburguer ul {
+  padding: 15px;
+}
+
+.hamburguer li {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 9px 15px;
+  font-size: .9rem;
+}
+
+.hamburguer a {
+  color: #000;
+  display: block;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 30px 0 14px 30px;
+}
+
+.hamburguer .off-canvas-absolute {
+  background-color: #f2f2f2;
+}
+
 .js-off-canvas-overlay.is-visible {
   opacity: .3;
 }
@@ -236,7 +257,7 @@ footer .menu {
   left: 0;
 }
 
-button {
+button, a {
   outline: none;
 }
 
@@ -515,6 +536,10 @@ p.arrival  {
   height: 551px;
 }
 
+.position-left.is-transition-push::after {
+  box-shadow: none;
+}
+
 /*Mobile*/
 @media (max-width: 768px) {
   footer .menu {
@@ -593,6 +618,10 @@ p.arrival  {
 
   .left-options {
     width: 20%;
+  }
+
+  .icon-bin {
+    top: 0;
   }
 
 }
