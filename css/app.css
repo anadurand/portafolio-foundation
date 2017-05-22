@@ -360,9 +360,10 @@ p.arrival  {
   position: absolute;
   bottom: 0;
   transition: .4s;
+  z-index: 20;
 }
 
-.opacity0 {
+.opacity-0 {
   visibility: hidden;
   opacity: 0
 }
@@ -431,7 +432,7 @@ p.arrival  {
   }
 
   .off-canvas.is-open {
-    width: 100%;
+    width: 320px;
   }
 
   .product-details {
