@@ -286,7 +286,7 @@ p.arrival  {
 }
 
 .text {
-  width: 56%;
+  width: 60%;
 }
 /*Mobile*/
 @media (max-width: 768px) {
@@ -328,5 +328,39 @@ p.arrival  {
     padding-left: 10px;
   }
 
+  .off-canvas.is-open {
+    width: 100%;
+  }
+
+  .product-details {
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 6px;
+    position: relative;
+  }
+
+  .text {
+    margin-left: 10px;
+    width: 65%;
+  }
+
+  .product-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .off-canvas h5 {
+    font-size: 1.4rem;
+  }
+
+  .product-name {
+    margin-top: 0;
+  }
+
+  .arrival {
+    position: absolute;
+    left: 6px;
+    bottom: -2px;
+  }
 
 }
