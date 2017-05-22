@@ -312,8 +312,6 @@ p.arrival  {
   padding: 10px;
   height: auto;
   border-top: 1px #e1e1e1 solid;
-  position: absolute;
-  bottom: 0;
 }
 
 .checkout-btn button {
@@ -322,6 +320,7 @@ p.arrival  {
   display: flex !important;
   align-items: center;
   justify-content: center;
+  margin: 0;
 }
 
 .checkout-btn .icon-keyboard_arrow_right {
@@ -344,7 +343,16 @@ p.arrival  {
 .opacity0 {
   visibility: hidden;
   opacity: 0
+}
 
+.cart-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.cart-footer ul {
+  margin: 0;
 }
 
 /*Mobile*/
