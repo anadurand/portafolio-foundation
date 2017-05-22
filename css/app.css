@@ -224,7 +224,7 @@ footer .menu {
 }
 
 .product-details {
-  display: flex;
+  display: flex !important;
   justify-content: space-around;
   align-items: center;
 }
@@ -232,11 +232,13 @@ footer .menu {
 .product-img {
   width: 84px;
   height: 84px;
-  background-color: red;
+  background-color: #fff;
+  border: 1px solid #f2f2f2;
 }
 
 .product-name {
   font-size: .9rem;
+  margin: 5px 0;
 }
 
 .left-options {
@@ -245,10 +247,12 @@ footer .menu {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  padding-right: 10px
 }
 
 .icon-bin {
   font-size: .7rem;
+  margin-bottom: 10px;
 }
 
 .off-canvas li.shipping {
@@ -266,6 +270,10 @@ footer .menu {
   font-size: .7rem;
 }
 
+p.arrival  {
+  margin: 8px 0;
+}
+
 .arrival span {
   color: #179b7f;
 }
@@ -277,6 +285,9 @@ footer .menu {
   border-color: #000;
 }
 
+.text {
+  width: 56%;
+}
 /*Mobile*/
 @media (max-width: 768px) {
   footer .menu {
