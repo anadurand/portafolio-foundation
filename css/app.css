@@ -443,6 +443,16 @@ p.arrival  {
   border-top: 1px #e1e1e1 solid;
   cursor: pointer;
 }
+.summary-absolute .arrows-up {
+  float: right;
+}
+
+.summary-absolute span {
+  display: block;
+  margin-top: -4px;
+  margin-bottom: -12px;
+  font-size: 1rem;
+}
 
 .open-acordeon {
   cursor: pointer;
