@@ -243,7 +243,8 @@ button {
 .product-img {
   width: 84px;
   height: 84px;
-  background-color: #fff;
+  background: url("../assets/img/527517-236x236-1478904979-primary.png") no-repeat;
+  background-size: contain;
   border: 1px solid #f2f2f2;
 }
 
