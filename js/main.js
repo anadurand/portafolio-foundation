@@ -20,3 +20,12 @@ quantity.addEventListener("change", function() {
   document.getElementById("subtotal").innerHTML = "$ " + quantity.value * 40;
   document.getElementById("total").innerHTML = "$ " + quantity.value * 40;
 })
+
+document.getElementsByClassName("icon-bin")[0].addEventListener("click", function(e) {
+  if (e.target.parentNode){
+    e.target.parentNode.style.opacity = "0";
+  }
+  document.getElementById("price").innerHTML = "$ " + 0;
+  document.getElementById("subtotal").innerHTML = "$ " + 0;
+  document.getElementById("total").innerHTML = "$ " + 0;
+})
