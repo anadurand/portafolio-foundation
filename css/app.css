@@ -1,30 +1,31 @@
 *{
   font-family: 'Nunito', sans-serif;
 }
-#carrusel{
-    margin: 30px auto;
-}
-     #carrusel .item{
-         background: none;
-         height: 300px;
-     }
-     #carrusel .item img{
-         min-width: 200px;
-         height: auto;
-     }
-
-.orbit-previous:hover{
-  background-color: transparent;
-  opacity: 1;
-}
+.orbit-previous:hover,
 .orbit-next:hover{
-  background-color:transparent;
-  opacity: 1;
+  background-color: transparent;
 }
-#owl-demo .item{
+.style-text-galeria{
+  padding: 10px 20px 10px 10px;
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0px;
 }
-p {
-  display: inline-block;
-  position: relative;
-  left: 50px;
+.style-precio-galeria{
+  color: #4a4a4a;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 0px;
+}
+.top-row-galeria {
+  margin-top: 30px;
+}
+.owl-carousel .icon-chevron-thin-left:hover,
+.owl-carousel .icon-chevron-thin-right:hover{
+  color: #9B9B9B;
+}
+.owl-carousel .icon-chevron-thin-left:hover {
+  color: #9B9B9B;
 }
