@@ -308,7 +308,7 @@ p.arrival  {
 }
 
 .text {
-  width: 58%;
+  width: 55%;
 }
 
 .cart-footer {
@@ -429,7 +429,7 @@ p.arrival  {
 }
 
 .acordeon {
-  transition: .3s;
+  transition: .3s ease-in;
   position: relative;
   bottom: -130px;
   z-index: 10;
@@ -443,11 +443,19 @@ p.arrival  {
   border-top: 1px #e1e1e1 solid;
   cursor: pointer;
 }
-.summary-absolute .arrows-up {
+.arrows-up,
+.arrows-down {
   float: right;
 }
 
-.summary-absolute span {
+.arrows-up span {
+  display: block;
+  margin-top: -4px;
+  margin-bottom: -12px;
+  font-size: 1rem;
+}
+
+.arrows-down span {
   display: block;
   margin-top: -4px;
   margin-bottom: -12px;
