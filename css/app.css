@@ -1,8 +1,6 @@
 * {
   font-family: 'Nunito', sans-serif;
 }
-img {
-}
 .color-gray{
   color: #666666;
 }
@@ -36,8 +34,8 @@ img {
   .top-li{
     right: 0px;
   }
+
   div {
-  overflow: auto;
   font-size: 14px;
   border: none;
   padding-top: 5px;
@@ -50,6 +48,9 @@ img {
   }
   a:hover {
     color: black;
+  }
+  hr {
+    margin: 10px;
   }
 }
 
