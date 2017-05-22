@@ -364,6 +364,7 @@ p.arrival  {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10px;
 }
 
 .payment h4 {
@@ -400,6 +401,13 @@ p.arrival  {
   height: 38px;
 }
 
+.close-payment {
+  position: absolute;
+  cursor: pointer;
+  right: 6px;
+  top: 6px;
+}
+
 .card {
   color: #333;
   text-align: center;
@@ -430,6 +438,11 @@ p.arrival  {
   bottom: 105px;
   z-index: 5;
   border-top: 1px #e1e1e1 solid;
+  cursor: pointer;
+}
+
+.open-acordeon {
+  cursor: pointer;
 }
 
 .bottom-0 {
