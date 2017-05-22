@@ -512,4 +512,9 @@ p.arrival  {
     bottom: -2px;
   }
 
+  .payment {
+    width: 318px;
+    top: 50px;
+  }
+
 }
