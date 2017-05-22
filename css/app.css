@@ -183,6 +183,7 @@ footer .menu {
   width: 373px;
   background-color: #fff;
   border: 1px solid #bdbebd;
+  overflow: hidden;
 }
 
 .js-off-canvas-overlay {
@@ -323,6 +324,9 @@ p.arrival  {
   background-color: #F7F7F7;
   font-size: .7rem;
   padding: 13px;
+  font-weight: 600;
+  border-top: 1px #e1e1e1 solid;
+  border-bottom: 0;
 }
 
 .checkout-btn {
@@ -332,7 +336,7 @@ p.arrival  {
 }
 
 .checkout-btn button {
-  background-color: #343535 !important;
+  background-color: #171717 !important;
   height: 44px;
   display: flex !important;
   align-items: center;
@@ -365,7 +369,7 @@ p.arrival  {
 .acordeon {
   transition: .3s;
   position: relative;
-  bottom: -80px;
+  bottom: -120px;
   z-index: -5;
 }
 
@@ -373,6 +377,7 @@ p.arrival  {
   position: absolute;
   bottom: 105px;
   z-index: -10;
+  border-top: 1px #e1e1e1 solid;
 }
 
 .bottom-0 {
