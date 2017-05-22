@@ -198,6 +198,15 @@ footer .menu {
   background-color: #000;
 }
 
+.hamburguer .js-off-canvas-overlay {
+  width: 100vh;
+}
+
+.hamburguer-content {
+  position: absolute;
+  height: 100vh;
+}
+
 .js-off-canvas-overlay.is-visible {
   opacity: .3;
 }
@@ -491,6 +500,15 @@ p.arrival  {
 
 .add-cart:hover {
   background-color: #CF0218;
+}
+
+.off-canvas-wrapper {
+  overflow: inherit;
+}
+
+.position-left {
+  width: 250px;
+  height: 551px;
 }
 
 /*Mobile*/
