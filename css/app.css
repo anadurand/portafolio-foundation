@@ -207,6 +207,10 @@ footer .menu {
   height: 100vh;
 }
 
+.hamburguer {
+  position: fixed;
+}
+
 .js-off-canvas-overlay.is-visible {
   opacity: .3;
 }
