@@ -17,4 +17,6 @@ document.getElementsByClassName("close-payment")[0].addEventListener("click", fu
 var quantity = document.getElementsByClassName("quantity")[0];
 quantity.addEventListener("change", function() {
   document.getElementById("price").innerHTML = "$ " + quantity.value * 40;
+  document.getElementById("subtotal").innerHTML = "$ " + quantity.value * 40;
+  document.getElementById("total").innerHTML = "$ " + quantity.value * 40;
 })
