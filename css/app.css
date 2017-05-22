@@ -1,0 +1,86 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+img {
+}
+.color-gray{
+  color: #666666;
+}
+.color-black{
+  color: black;
+}
+.font-size-10{
+  font-size: 15px;
+}
+.position-lista{
+  position: relative;
+  right: 30px;
+
+}
+.style-button {
+  top: 30px;
+  position: relative;
+  font-size: 17px;
+  right: 130px;
+}
+.style-acordion {
+  color: black;
+  font-size: 19px;
+}
+@media(max-width: 768px){
+  .style-button {
+    top: 0px;
+    position: relative;
+    right: 0px;
+  }
+  .top-li{
+    right: 0px;
+  }
+  div {
+  overflow: auto;
+  font-size: 14px;
+  border: none;
+  padding-top: 5px;
+  }
+  a {
+    padding-right: 10px;
+  }
+  ul{
+    margin: 0px;
+  }
+  a:hover {
+    color: black;
+  }
+}
+
+.truck-img{
+  width: 20px;
+}
+.orbit-previous:hover,
+.orbit-next:hover{
+  background-color: transparent;
+}
+.style-text-galeria{
+  padding: 10px 20px 10px 10px;
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+.style-precio-galeria{
+  color: #4a4a4a;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 0px;
+}
+.top-row-galeria {
+  margin-top: 30px;
+}
+.owl-carousel .icon-chevron-thin-left:hover,
+.owl-carousel .icon-chevron-thin-right:hover{
+  color: #9B9B9B;
+}
+.owl-carousel .icon-chevron-thin-left:hover {
+  color: #9B9B9B;
+}
