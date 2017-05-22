@@ -23,7 +23,7 @@ quantity.addEventListener("change", function() {
 
 document.getElementsByClassName("icon-bin")[0].addEventListener("click", function(e) {
   if (e.target.parentNode){
-    e.target.parentNode.style.opacity = "0";
+    e.target.parentNode.style.visibility = "hidden";
   }
   document.getElementById("price").innerHTML = "$ " + 0;
   document.getElementById("subtotal").innerHTML = "$ " + 0;
