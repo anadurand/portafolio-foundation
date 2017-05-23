@@ -546,10 +546,46 @@ p.arrival  {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .padding-offers-2 {
   padding-right: 5px;
   padding-left: 5px;
   padding-bottom: 20px;
+}
+
+/*Carroussel*/
+.orbit-previous:hover,
+.orbit-next:hover {
+  background-color: transparent;
+}
+
+.style-text-galeria {
+  padding: 10px 20px 10px 10px;
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+
+.style-precio-galeria {
+  color: #4a4a4a;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 0px;
+}
+
+.top-row-galeria {
+  margin-top: 30px;
+}
+
+.owl-carousel .icon-chevron-thin-left:hover,
+.owl-carousel .icon-chevron-thin-right:hover {
+  color: #9B9B9B;
+}
+
+.owl-carousel .icon-chevron-thin-left:hover {
+  color: #9B9B9B;
 }
 
 /*Mobile*/
@@ -641,6 +677,7 @@ p.arrival  {
   padding-left: 0px;
   padding-right: 0px;
   }
+
   .padding-offers-2 {
     padding-left: 0px;
     padding-right: 0px;
