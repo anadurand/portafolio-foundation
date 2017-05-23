@@ -738,6 +738,14 @@ header.hide-for-large .row div.columns>a>i.fa-credit-card.fa--small {
 
 }
 
+.hide-for-large .bg-white {
+    position: fixed;
+    min-width: 320px;
+    top: 25px;
+    z-index: -1;
+    width: 100%;
+}
+
 
 header.show-for-large {
   position:fixed;
@@ -1063,14 +1071,11 @@ div.hide-for-large img.img-sales-small {
   	display:none;
   }
 
-  .owl-carousel {
-    z-index: -8;
-  }
-
   .padding-top-offers {
     padding-top: 0;
   }
 }
+
 
 
 /*prueba*/
