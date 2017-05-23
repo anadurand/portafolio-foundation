@@ -1029,4 +1029,8 @@ div.hide-for-large img.img-sales-small {
   .owl-carousel {
     z-index: -8;
   }
+
+  .padding-top-offers {
+    padding-top: 0;
+  }
 }
