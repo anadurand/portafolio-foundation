@@ -929,6 +929,12 @@ div.hide-for-large img.img-sales-small {
   z-index: 208;
 }
 
+.detail-sales {
+  padding-top: 127px;
+}
+
+/*Description*/
+
 
 /*Mobile*/
 @media (max-width: 768px) {
@@ -1023,6 +1029,10 @@ div.hide-for-large img.img-sales-small {
   .padding-offers-2 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .detail-sales {
+    padding-top: 60px;
   }
 
 }
