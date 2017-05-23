@@ -913,9 +913,15 @@ ul.menu.menu-sales-social-media li{
   padding-top: 127px;
 }
 
-
+.orbit-previous:hover,
+.orbit-next:hover{
+  background-color: transparent;
+}
 .owl-carousel .icon-chevron-thin-left:hover,
 .owl-carousel .icon-chevron-thin-right:hover{
+  color: #9B9B9B ;
+}
+.owl-carousel .icon-chevron-thin-left:hover {
   color: #9B9B9B ;
 }
 
