@@ -835,8 +835,7 @@ i.fa-angle-right {
 
 
 section.detail-sales {
-  position: relative;
-  top:130px;
+  /*position: relative;*/
 }
 
 
@@ -882,9 +881,6 @@ section.detail-sales .row div.hide-for-large.height-small.small-12.columns  {
 div.hide-for-large img.img-sales-small {
   width: 68px;
   height: 68px;
-  position: relative;
-  top:3%;
-
 }
 
 /*Mobile*/
