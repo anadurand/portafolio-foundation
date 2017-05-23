@@ -32,11 +32,18 @@ document.getElementsByClassName("close-payment")[0].addEventListener("click", fu
 })
 
 //Imprimir precio
-var quantity = document.getElementsByClassName("quantity")[0];
+var quantity = document.getElementsByClassName("quantity")[1];
 quantity.addEventListener("change", function() {
   document.getElementById("price").innerHTML = "$ " + quantity.value * 40;
   document.getElementById("subtotal").innerHTML = "$ " + quantity.value * 40;
   document.getElementById("total").innerHTML = "$ " + quantity.value * 40;
+})
+
+var quantityCart = document.getElementsByClassName("quantity")[0];
+quantityCart.addEventListener("change", function() {
+  document.getElementById("price").innerHTML = "$ " + quantityCart.value * 40;
+  document.getElementById("subtotal").innerHTML = "$ " + quantityCart.value * 40;
+  document.getElementById("total").innerHTML = "$ " + quantityCart.value * 40;
 })
 
 //"Eliminar" compra
