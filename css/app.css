@@ -179,6 +179,7 @@ footer .menu {
   position: fixed;
   bottom: 25px;
   right: 30px;
+  z-index: 500;
 }
 
 .visible {
