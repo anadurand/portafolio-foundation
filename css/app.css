@@ -913,6 +913,17 @@ ul.menu.menu-sales-social-media li{
   padding-top: 127px;
 }
 
+
+.owl-carousel .icon-chevron-thin-left:hover,
+.owl-carousel .icon-chevron-thin-right:hover{
+  color: #9B9B9B ;
+}
+
+.owl-carousel [class*=" icon-"] {
+    background-color: transparent;
+    color: #000;
+}
+
 /*Mobile */
 section.detail-sales .row div.hide-for-large.img-proyectada-sales.text-center.small-12.columns,
 section.detail-sales .row div.hide-for-large.height-small.small-12.columns  {
