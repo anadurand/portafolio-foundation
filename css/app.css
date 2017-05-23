@@ -799,7 +799,7 @@ span.nav {
 header.hide-for-large {
   position: fixed;
   width: 100%;
-  top:10%;
+  top: 36px;
   z-index:120;
 ;
 }
