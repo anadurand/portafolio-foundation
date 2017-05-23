@@ -905,6 +905,10 @@ ul.menu.menu-sales-social-media li{
   z-index: -1;
 }
 
+.padding-top-offers {
+  padding-top: 127px;
+}
+
 /*Mobile */
 section.detail-sales .row div.hide-for-large.img-proyectada-sales.text-center.small-12.columns,
 section.detail-sales .row div.hide-for-large.height-small.small-12.columns  {
