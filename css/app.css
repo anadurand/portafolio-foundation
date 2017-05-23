@@ -688,7 +688,7 @@ header.hide-for-large .row {
 }
 
 header.hide-for-large .row div.columns>a>i {
-  border:1px solid black;
+  /*border:1px solid black;*/
   font-size:.9em;
   width: 40px;
   }
@@ -836,6 +836,30 @@ i.fa-angle-right {
 
 section.detail-sales {
   /*position: relative;*/
+}
+
+.hamburguer .prombar {
+  width: 320px;
+  top: 0;
+  z-index: -1;
+}
+
+.hamburguer .prombar a {
+  padding: 0;
+  border-bottom: 0;
+}
+
+.hamburguer .prombar, .hamburguer header {
+  z-index: -1;
+}
+
+.db {
+  padding: 0 !important;
+  border-bottom: 0 !important;
+}
+
+.hamburguer-content {
+  width: 100%;
 }
 
 
@@ -987,5 +1011,9 @@ div.hide-for-large img.img-sales-small {
 
   span.new {
   	display:none;
+  }
+
+  .owl-carousel {
+    z-index: -8;
   }
 }
