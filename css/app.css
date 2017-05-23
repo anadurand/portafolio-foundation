@@ -1,6 +1,4 @@
-* {
-  font-family: 'Nunito', sans-serif;
-}
+/*Nuevos estilos*/
 .color-gray{
   color: #666666;
 }
@@ -25,6 +23,10 @@
   color: black;
   font-size: 19px;
 }
+.truck-img{
+  width: 20px;
+}
+
 @media(max-width: 768px){
   .style-button {
     top: 0px;
@@ -34,29 +36,62 @@
   .top-li{
     right: 0px;
   }
-
-  div {
+  .seccion-acordion div {
   font-size: 14px;
   border: none;
   padding-top: 5px;
-  }
-  a {
-    padding-right: 10px;
-  }
-  ul{
+}
+  .seccion-descripcion div {
+  font-size: 14px;
+  border: none;
+  padding-top: 5px;
+}
+  .seccion-informacion div {
+  font-size: 14px;
+  border: none;
+  padding-top: 5px;
+}
+  .seccion-descripcion-1 div {
+  font-size: 14px;
+  border: none;
+  padding-top: 5px;
+}
+  .seccion-1 div {
+  font-size: 14px;
+  border: none;
+  padding-top: 5px;
+}
+  .seccion-2 div{
+  font-size: 14px;
+  border: none;
+  padding-top: 5px;
+}
+  .seccion-2 div{
+  font-size: 14px;
+  border: none;
+  padding-top: 5px;
+}
+  .style-ul ul{
     margin: 0px;
   }
-  a:hover {
+  .style-ul-1 ul{
+    margin: 0px;
+  }
+  .style-ul a {
+    padding-right: 10px;
+  }
+  .style-ul a:hover {
     color: black;
   }
-  hr {
+  .style-hr {
     margin: 10px;
   }
 }
-
-.truck-img{
-  width: 20px;
+/*stylos carrusel-1*/
+* {
+  font-family: 'Nunito', sans-serif;
 }
+
 .orbit-previous:hover,
 .orbit-next:hover{
   background-color: transparent;
