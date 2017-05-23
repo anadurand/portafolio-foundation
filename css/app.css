@@ -589,6 +589,313 @@ p.arrival  {
   color: #9B9B9B;
 }
 
+/*Lulú nav y detalle*/
+/* Clases reutilizables */
+
+.bg-black {
+  background-color: #171717;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.bg-gray {
+  background-color: #f5f5f5;
+}
+.color-white {
+	color:white;
+}
+
+.color-black {
+	color:black;
+}
+
+.color-gray {
+  color: #9b9b9b;
+}
+
+.color-gray-300 {
+  color:#4a4a4a;
+}
+
+.color-alert {
+  color: #cc4b37;
+}
+.db {
+  display:  block;
+}
+
+
+/*Primera parte */
+
+.prombar {
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+  height: 25px;
+  font-size: .75em;
+}
+
+
+img.us {
+	width:20px;
+	height: 20px;
+}
+
+/* SEGUNDA PARTE */
+
+
+
+div.logo.columns,
+form.columns,
+ul.menu.align-right {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-left: 0;
+    height:55px;
+}
+
+div.logo {
+	width: 10%;
+}
+
+div.search{
+	position: relative;
+	top:5px;
+}
+
+i.fa-search.fa--large,
+i.fa-smile-o {
+	display: inline-block;
+	font-size: 23px;
+	position: relative;
+	top:6px;
+	left:5px
+}
+
+
+i.fa-credit-card.fa--large {
+	font-size: 13px;
+	position: relative;
+	left:5px;
+	top:-3px;
+}
+
+
+
+/*Iconos para mobile */
+
+
+header.hide-for-large .row {
+  height: 40px;
+  border-bottom: 1px solid black;
+}
+
+header.hide-for-large .row div.columns>a>i {
+  border:1px solid black;
+  font-size:.9em;
+  width: 40px;
+  }
+
+header.hide-for-large .row div.columns>a>i.fa-search.fa--small {
+  position: relative;
+  left:70px;
+}
+
+
+header.hide-for-large .row div.columns>a>i.fa-credit-card.fa--small {
+  position: relative;
+  right:50px;
+}
+
+
+
+.search-icon,
+.search-emoticon {
+	border: 1px solid black;
+	display: inline-block;
+	width: 35px;
+	height: 39px;
+	position: relative;
+	top:-3px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+
+.search-emoticon {
+	right:10px;
+}
+
+
+
+.search-input {
+	display: inline-block;
+	width: 80%;
+	position: relative;
+	left:-5px;
+	border: 1px solid black;
+	border-left: none;
+
+}
+
+
+header.show-for-large {
+  position:fixed;
+  width: 100%;
+  padding-top: 25px;
+  z-index: 200;
+
+}
+
+
+header.show-for-large .row  ul.menu.align-right {
+	padding-right: 0;
+	position: relative;
+	top:7px;
+	font-size: .9em;
+}
+
+
+
+header.show-for-large .row  ul.menu.align-right li:before{
+content: "|";
+position: absolute;
+font-size: 15px;
+bottom:20px;
+opacity:0.4;
+
+}
+
+ ul.menu.align-right li:nth-child(4):before,
+ ul.menu.align-right li:nth-child(5):before{
+  visibility: hidden;
+
+}
+
+
+header.show-for-large .row  ul.menu.align-right li.new {
+	position: absolute;
+	top:-4px;
+	left:40%;
+}
+
+span.new{
+	background-color: #00a256;
+	font-size: .9em;
+	padding: .5px 3px;
+	border-radius: 5px;
+
+}
+
+div.navbar.row ul{
+
+	font-size: 0.70em;
+}
+
+
+span.nav {
+	font-size: 16.5px;
+	padding-right: 11.5px;
+
+}
+
+header.hide-for-large {
+  position: fixed;
+  width: 100%;
+  top:10%;
+  z-index:120;
+;
+}
+
+header.hide-for-large .row div.logo-mobile {
+  width: 90px;
+  height: 90px;
+}
+
+
+nav.navbar-sales {
+  position: relative;
+  top:130px;
+}
+
+
+.menu.menu-sales>li>a {
+  font-size: .8em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: 1em;
+}
+
+.menu.menu-sales>li>a:hover{
+  color:#666;
+  opacity: 0.8;
+}
+
+i.fa-angle-right {
+  font-size: 1.2em;
+  margin-left: .5em;
+}
+
+
+section.detail-sales {
+  position: relative;
+  top:130px;
+}
+
+
+section.detail-sales img.img-sales{
+  display: block;
+  border:1px solid #999;
+  width: auto;
+  position: relative;
+  top:100px;
+  margin-bottom: 15px;
+}
+
+section.detail-sales .row div.columns{
+  height: 380px;
+}
+
+
+div.img-proyectada-sales img{
+  width: 250px;
+  margin-top: 2%;
+}
+
+select {
+  width: 60px;
+  font-size: .7rem;
+  height: 32px;
+  border-color: #000;
+  background-color: transparent;
+}
+
+
+
+
+ul.menu.menu-sales-social-media li{
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 1.5em;
+}
+
+
+
+
+/*Mobile */
+section.detail-sales .row div.hide-for-large.img-proyectada-sales.text-center.small-12.columns,
+section.detail-sales .row div.hide-for-large.height-small.small-12.columns  {
+    height: 270px;
+}
+
+div.hide-for-large img.img-sales-small {
+  width: 68px;
+  height: 68px;
+  position: relative;
+  top:3%;
+
+}
+
 /*Mobile*/
 @media (max-width: 768px) {
   footer .menu {
@@ -684,4 +991,14 @@ p.arrival  {
     padding-right: 0px;
   }
 
+}
+
+@media (max-width: 1190px)  {
+  li.hide-small {
+  	display: none;
+  	}
+
+  span.new {
+  	display:none;
+  }
 }
