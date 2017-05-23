@@ -684,7 +684,6 @@ i.fa-credit-card.fa--large {
 
 header.hide-for-large .row {
   height: 40px;
-  border-bottom: 1px solid black;
 }
 
 header.hide-for-large .row div.columns>a>i {
@@ -797,16 +796,14 @@ span.nav {
 }
 
 header.hide-for-large {
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
   top: 36px;
   z-index:120;
-;
 }
 
 header.hide-for-large .row div.logo-mobile {
   width: 90px;
-  height: 90px;
 }
 
 
@@ -842,6 +839,7 @@ section.detail-sales {
   width: 320px;
   top: 0;
   z-index: -1;
+  padding-top: 3px;
 }
 
 .hamburguer .prombar a {
@@ -851,6 +849,10 @@ section.detail-sales {
 
 .hamburguer .prombar, .hamburguer header {
   z-index: -1;
+}
+
+.promo-icons {
+  display: inline-block !important;
 }
 
 .db {
@@ -894,6 +896,13 @@ ul.menu.menu-sales-social-media li{
     padding-left: 25px;
     padding-right: 25px;
     font-size: 1.5em;
+}
+
+.hide-for-large .bg-white {
+  position: fixed;
+  width: 320px;
+  top: 25px;
+  z-index: -1;
 }
 
 /*Mobile */
