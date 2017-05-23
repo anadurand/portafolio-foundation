@@ -195,6 +195,10 @@ footer .menu {
   overflow: hidden;
 }
 
+.position-right {
+  z-index: 500;
+}
+
 .js-off-canvas-overlay {
   background-color: #000;
 }
@@ -919,6 +923,12 @@ div.hide-for-large img.img-sales-small {
   width: 68px;
   height: 68px;
 }
+
+/*fixing offset*/
+.js-off-canvas-overlay.is-overlay-fixed {
+  z-index: 208;
+}
+
 
 /*Mobile*/
 @media (max-width: 768px) {
