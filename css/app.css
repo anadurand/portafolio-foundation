@@ -738,14 +738,6 @@ header.hide-for-large .row div.columns>a>i.fa-credit-card.fa--small {
 
 }
 
-.hide-for-large .bg-white {
-    position: fixed;
-    min-width: 320px;
-    top: 25px;
-    z-index: -1;
-    width: 100%;
-}
-
 
 header.show-for-large {
   position:fixed;
